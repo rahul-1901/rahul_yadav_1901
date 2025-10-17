@@ -200,7 +200,7 @@ Type \`help\` to see all available commands.`;
     <div className="bg-black text-green-400 font-mono flex flex-col h-screen w-screen overflow-hidden">
       <div className="flex flex-col px-4 py-3 border-b border-green-400 bg-black shrink-0">
         <p className="text-green-400 text-lg font-bold">Rahul Kumar</p>
-        <p className="text-gray-500 text-xs">Software Developer | Full Stack Engineer</p>
+        <p className="text-gray-500 text-xs">Software Developer | Full Stack Developer</p>
       </div>
 
       <div className="flex flex-1 w-full overflow-hidden flex-col md:flex-row">
