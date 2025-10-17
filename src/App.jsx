@@ -53,7 +53,6 @@ Use this command to see all available commands and their descriptions.
 - \`projects\` — View the projects I have worked on
 - \`experience\` — Check my professional experience
 - \`contact\` — Get my contact information
-- \`education\` — Learn about my academic background
 - \`clear\` — Clear the terminal`,
 
   about: `**👋 About Me**
