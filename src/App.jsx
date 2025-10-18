@@ -17,7 +17,7 @@ const markdownComponents = {
       {children}
     </a>
   ),
-  ul: ({ children }) => <ul className="mb-2 space-y-1">{children}</ul>,
+  ul: ({ children }) => <ul className="mb-2 space-y-2 md:space-y-1">{children}</ul>,
   ol: ({ children }) => <ol className="mb-2 space-y-1">{children}</ol>,
   li: ({ children }) => <li className="ml-6 list-disc leading-relaxed">{children}</li>,
   h1: ({ children }) => <h1 className="text-lg font-bold mb-2 text-green-300">{children}</h1>,
@@ -55,19 +55,19 @@ Use this command to see all available commands and their descriptions.
 - \`contact\` — Get my contact information
 - \`clear\` — Clear the terminal`,
 
-  about: `**👋 About Me**
+ about: `**👋 About Me**
 
-Hi, I'm **Rahul Kumar**, a pre-final year *Engineering student at IIT Jodhpur* majoring in *Chemistry*.
+Hi, I'm **Rahul Kumar**, a pre-final year *Engineering student at IIT Jodhpur*, majoring in *Chemistry*, based in **India**.
 
-I am a **passionate software developer**, continuously contributing through **projects and hands-on development**. I enjoy building solutions that blend creativity with technology, and I am always eager to learn and grow in software development.`,
+I am a **passionate software developer** driven by building meaningful and user-centric solutions through **hands-on projects**. I enjoy creating applications that merge **creativity with technology** and am constantly eager to **learn, experiment, and grow** as a developer.`,
 
   skills: `**💻 Skills**
 
-**Frontend:** React, TypeScript, TailwindCSS, Framer Motion  
+**Frontend:** React.js, Next.js, HTML, CSS, TailwindCSS  
 **Backend:** Node.js, Express, Django  
 **Databases:** MongoDB, PostgreSQL  
-**Languages:** JavaScript, C++, Python  
-**Tools:** Git, GitHub, Docker`,
+**Programming Languages:** JavaScript, C++, Python  
+**Tools & Platforms:** Git, GitHub, Docker`,
 
   projects: `
 **🚀 Projects**
@@ -76,18 +76,29 @@ I am a **passionate software developer**, continuously contributing through **pr
    - Worked as part of the frontend team  
    - Website received impressive response and served as central platform
 
-2. **[URBAN LUXE](https://ecommerce-lilac-eight-92.vercel.app/)** — A **MERN stack** e-commerce platform  
-   - Product listing, cart, checkout, and authentication
+2. **[URBAN LUXE](https://ecommerce-lilac-eight-92.vercel.app/)** — A **MERN-based e-commerce ecosystem** integrating **secure authentication, dynamic product workflows,** and **dummy transactional operations** within a **scalable, responsive architecture.**
 
 3. **[Kathayan'25](https://kathayan.in/)** — Official website for *IIT Jodhpur's annual literature fest*  
-   - Contributed as **frontend developer**  
-   - Handled entire frontend design and implementation
+   - Developed using **TypeScript + React** with **Framer Motion** and **Chakra UI** for an engaging, dynamic interface  
+   - Backend built with **Java Spring Boot**, ensuring robust data handling and API management  
+   - Contributed as **frontend developer**, working on complete frontend code and implementation
 
-4. **[HackSprint](https://hack-sprint-iitj.vercel.app/)** — Centralized web platform to host hackathons, daily dev and aptitude challenges, and public project submissions for hands-on learning and technical growth.  
-   - Developed as a part of SOC of **DevLup Lab, IIT Jodhpur**
+4. **[HackSprint](https://hack-sprint-iitj.vercel.app/)** — Centralized platform for hosting hackathons, daily development and aptitude challenges, and public project submissions to facilitate hands-on learning and technical growth.  
+   - Developed as part of **SOC of DevLup Lab, IIT Jodhpur**, contributing to both frontend and backend  
+   - Tech stack: **React.js (frontend), Node.js (backend), MongoDB, Redis (caching), Kestra (automated workflow)**
 
-5. **DRDO IITJ Website** — Developed a web platform for **ML-based classification and detection** for defense applications.  
-   - Handled frontend development and integration of ML modules
+5. **DRDO IITJ Website** — Developing a web platform for **ML-based classification and detection** for defense applications.  
+   - Handling backend development and integration of ML modules
+
+6. **[ParthSarthi](https://www.parthsarthi.org/)** — Freelance full-stack project delivering a **highly optimized, SEO-friendly platform**.  
+   - Frontend developed in **React** using **Next.js framework** for enhanced SEO and performance  
+   - Backend implemented in **Node.js**, integrated seamlessly within the Next.js environment  
+   - Leveraged **AWS cloud services** for blob storage and faster site optimization  
+
+
+7. **Movie Recommendation System** — A **DSA-based project** trying to implementing a *movie recommendation algorithm in C++*, integrated with a **Node.js backend** using *child process* to execute C++ code.  
+   - Built using **traditional REST APIs** (without Crow) to connect backend of C++ logic  
+   - Designed a full-stack solution combining **C++ (core logic)** and **Node.js (API layer)**  
 `,
 
   experience: `
@@ -271,7 +282,7 @@ Type \`help\` to see all available commands.`;
           <div className="flex flex-wrap items-center gap-2 border-b border-green-400 px-3 py-2 bg-black shrink-0 overflow-x-auto">
             {command.map((cmd, index) => (
               <div key={index} className="flex items-center gap-2 whitespace-nowrap">
-                <p className="text-green-400 text-xs hover:text-cyan-400 cursor-pointer transition-colors">
+                <p className="text-green-400 text-xs cursor-default transition-colors">
                   {cmd}
                 </p>
                 {index < command.length - 1 && <div className="h-3 w-px bg-green-400/50"></div>}
