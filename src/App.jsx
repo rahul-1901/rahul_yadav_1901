@@ -120,7 +120,7 @@ I am a **passionate software developer** driven by building meaningful and user-
   contact: `**📧 Contact**
 
 - **Email:** b23cy1017@iitj.ac.in
-- **GitHub:** [github.com/rahul-1901](https://github.com/rahulkumar1901)  
+- **GitHub:** [github.com/rahul-1901](https://github.com/rahul-1901)  
 - **LinkedIn:** [linkedin.com/in/rahul-kumar-52898928a](https://www.linkedin.com/in/rahul-kumar-52898928a)`
 }
 
